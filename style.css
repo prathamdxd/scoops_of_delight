@@ -256,11 +256,8 @@ i {
 
 
 @media (max-width: 992px) {
-    *{
-        overflow-x: hidden;
-    }
     header {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .main {
@@ -300,16 +297,13 @@ i {
         padding: 10px 30px;
     }
     #services{
-        height: 100%;
+        height: auto;
     }
 }
 
 @media (max-width: 768px) {
-    *{
-        overflow-x: hidden;
-    }
     nav ul {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     nav ul li{
@@ -323,8 +317,8 @@ i {
     }
 
     .image-container {
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
     }
 
     .image {
@@ -336,7 +330,7 @@ i {
     .card {
         width: 90%;
         margin: auto;
-        height: 76vh;
+        height: auto;
     }
 
     .card-container {
@@ -347,9 +341,6 @@ i {
 }
 
 @media (max-width: 576px) {
-    *{
-        overflow-x: hidden;
-    }
     img{
         margin: auto;
     }
@@ -375,8 +366,8 @@ i {
     }
 
     .image-container {
-        width: 150px;
-        height: 200px;
+        width: 200px;
+        height: 250px;
     }
 
     .image {
@@ -387,27 +378,32 @@ i {
 }
 
 @media (max-width: 480px) {
-    *{
-        overflow-x: hidden;
-    }
     .content .left-content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .content .left-content h4 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .content .left-content span,
     .content .left-content p {
         color: black;
     }
+
+    .image-container {
+        width: 150px;
+        height: 200px;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        left: -15px;
+    }
 }
 
 @media (max-width: 320px) {
-    *{
-        overflow-x: hidden;
-    }
     .left-text {
         padding: 20px 10px;
     }
